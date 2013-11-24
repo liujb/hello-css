@@ -1,0 +1,107 @@
+.skin-report {
+
+}
+.skin-report .btn-40-orange,
+.skin-report .btn-40-orange:visited {
+  text-align: center;
+  display: inline-block;
+  border-radius: 7px;
+  width: 77px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #ff7f01;
+  font-size: 14px;
+  font-weight: bold;
+}
+.skin-report .btn-40-orange:hover,
+.skin-report .btn-40-orange:active {
+  background-color: #ff9328;
+}
+.skin-report .btn-30-orange,
+.skin-report .btn-30-orange:visited {
+  text-align: center;
+  display: inline-block;
+  border-radius: 7px;
+  width: 64px;
+  height: 32px;
+  line-height: 32px;
+  vertical-align: middle;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #ff7f01;
+  font-size: 14px;
+  font-weight: bold;
+}
+.skin-report .btn-30-orange:hover,
+.skin-report .btn-30-orange:active {
+  background-color: #ff9328;
+}
+.skin-report .list-item {
+  height: 34px;
+  line-height: 34px;
+  vertical-align: middle;
+  border: 1px solid #ededed;
+  border-radius: 2px;
+  background-image: -moz-linear-gradient(90deg, #d7d7d7 0%, #fafafa 100%);
+  background-image: -webkit-linear-gradient(90deg, #d7d7d7 0%, #fafafa 100%);
+  background-image: -ms-linear-gradient(90deg, #d7d7d7 0%, #fafafa 100%);
+  background-color: #f0f0f0;
+  padding-left: 10px;
+  font-size: 16px;
+  color: #ff7f01;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.skin-report .list-item .collapse {
+  margin-right: 10px;
+  margin-top: 8px;
+  float: right;
+  width: 19px;
+  height: 19px;
+  background-color: #fff;
+  background:url("/static/mis2/css/images/i-collapse.png");
+}
+.skin-report .list-item .expand {
+  margin-right: 10px;
+  margin-top: 8px;
+  float: right;
+  width: 19px;
+  height: 19px;
+  background-color: #fff;
+  background:url("/static/mis2/css/images/i-expand.png");
+}
+.skin-report .input-normal {
+  height: 32px;
+  width: 128px;
+  border: 2px solid #ededed;
+}
+
+/*table*/
+
+.skin-report table{
+  margin:0;
+  padding: 0;
+  width: 100%;
+  color: #999;
+  border: 1px solid #ededed;  
+  padding:0;   
+  margin:0 auto;  
+  border-collapse: collapse;  
+  margin-bottom: 30px;
+}
+.skin-report table td,.skin-report table th{
+  border: 1px solid #ededed;   
+  font-size:12px;  
+  padding: 3px 3px 3px 8px;  
+  color: #4f6b72;  
+  height: 30px;
+  width: 80px;
+}
+

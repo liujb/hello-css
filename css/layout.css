@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/*头部*/
+.header{
+	height:40px;
+	line-height:40px;
+	background:#fff;
+	width:100%;
+}
+
+/*内容*/
+.content{
+	width:980px;
+	margin:10px auto 34px;
+	border:1px solid #dcdcdc;
+	background:#fff;
+}
+
+/*左边*/
+.left{
+	float:left;
+	width:165px;
+	overflow:hidden;
+	min-height:500px;
+	_height:500px;
+	border-right: 1px solid #dcdcdc;
+}
+
+.right{
+
+}
+
+/*主内容区*/
+.main{
+	float:right;
+	width:814px;
+	border-left:1px solid #dcdcdc;
+	margin-left: -1px;
+}
+
+/*尾部*/
+.footer{
+	clear: both;
+}
+
+/*导航栏*/
+nav{
+	height:40px;
+	line-height:40px;
+	background:#fff;
+	width: 100%;
+}
+.nav-body{
+	width: 980px;
+	margin: 0px auto;
+}
+.nav-title{
+	float:left;
+	font-size: 24px;
+}
+.nav-title img{
+	float: left;
+	margin-right: 10px;
+}
+.nav-title strong.last{
+	padding: 0px 10px;
+	border-left: 1px solid #ededed;
+}
+.nav-title .blank{
+	color: #666;
+	font-weight: 300%;
+}
+.nav-content{
+	cursor: pointer;
+	float:right;
+}
+.nav-content .more{
+	display: none;
+	position: absolute;
+	z-index: 999;
+	background: #fff;
+	border: 1px solid #9b9b9b;
+	top: 30px;
+	-moz-box-shadow: 1px 1px 2px #ccc;
+	-webkit-box-shadow: 1px 1px 2px #ccc;
+	box-shadow: 1px 1px 2px #ccc;
+	filter: progid:DXImageTransform.Microsoft.Shadow(strength=2,direction=135,color="#cbcbcb") \9;
+}
+.nav-content .more li{
+	display: block;
+	border-bottom: 1px solid #ebebeb
+}
+.nav-content .more a{
+	text-align: center;
+	border: 0;
+	display: block;
+	padding: 0 10px;
+	line-height: 24px;
+	text-decoration: none;
+	font-size: 12px;
+}
+.nav-content .more a:hover{
+	background: #ebebeb;
+}

@@ -1,0 +1,83 @@
+/*menu 控件*/
+#menu li a{
+	text-decoration:none;
+}
+
+/*图像显示控*/
+
+.u-img2{display:block;position:relative;width:76px;height:76px;padding:2px;border:1px solid #ddd;}
+.u-img2,.u-img2 img{border-radius:5px;}
+.u-img2 img{display:block;width:100%;height:100%;}
+
+label{
+	margin-right: 10px;
+}
+
+.report-body{
+	margin: 0px 25px;
+}
+.report-title h2{
+	font-size: 24px;
+	font-family: "Microsoft Yahei";
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.report-title{
+	border-bottom: 1px solid #ededed;
+	margin-bottom: 20px;
+}
+
+
+/*箭头*/
+.arrow-bottom-collapse{
+	height:0px;
+	line-height:0px;
+	width:0px;
+	border:4px solid #000;
+	border-color:#000 transparent transparent transparent;
+    display:inline-block;
+	_zoom:1;
+	cursor:pointer;
+}
+
+ .btn-40-orange,
+ .btn-40-orange:visited {
+  text-align: center;
+  display: inline-block;
+  border-radius: 7px;
+  width: 77px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #ff7f01;
+  font-size: 14px;
+  font-weight: bold;
+}
+ .btn-40-orange:hover,
+ .btn-40-orange:active {
+  background-color: #ff9328;
+}
+
+/*icon*/
+.i-Q,.i-Q-hover{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: -3px;	
+	margin-left: 5px;
+}
+.i-Q{
+	background: url("/static/mis2/css/images/i-Q.png");
+}
+.i-Q-hover{
+	background: url("/static/mis2/css/images/i-Q-hover.png");
+};
+
+/*table 的样式*/
+.evenRow{background-color:#fff;}  
+.oddRow{background-color:#fbf8f8;}  
+.activeRow{background-color:#eee;}  
