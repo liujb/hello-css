@@ -1,0 +1,6 @@
+.center{
+display: -webkit-box;
+-webket-box-orient:horizontal;
+-webkit-box-pack:center;
+-webket-box-align:center;
+}
