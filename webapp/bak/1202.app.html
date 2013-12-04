@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" >
+<title>placeholder</title>
+<style type="text/css">
+body,form,div,p,span,label,a,hr{
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+.main{
+	width:300px;
+	height: 100%;
+	text-align: center;
+	padding: 45px 20px 35px 20px;
+	background-color:#eeeff0;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: orange;
+}
+.main .logo{
+	background: url("images/logo.png") no-repeat;
+	background-size: 105px 108px;
+	display: inline-block;
+	width: 105px;
+	height: 108px;
+}
+.main .title{
+	font-size: 30px;
+	font-weight: 600;
+	height: 42px;
+}
+.main .tips{
+	color:#797979;
+	margin-bottom:50px;
+}
+.main .tips span{
+	margin: 0px 5px;
+	font-weight: 600;
+}
+.wrap-content{
+	border: 1px solid #d7d7d7;
+	border-radius: 10px;
+	height: 111px;
+	background-color: #fff;
+	padding: 0px 15px;
+}
+.wrap-content input{
+	border: 0px;
+	width: 248px;
+	height: 35px;
+	line-height: 20px;
+	font-size: 19px;
+	padding:0px 0px 0px 20px;
+	margin: 10px 0px;
+	color: #797979;
+}
+.wrap-content input#t-start{
+	background: url("images/i-start.png") no-repeat;
+}
+.wrap-content input#t-end{
+	background: url("images/i-end.png") no-repeat;
+}
+.wrap-content ::-webkit-input-placeholder {
+	color:#b8b8b8;
+	font-size: 19px;
+	vertical-align: bottom;
+}
+.wrap-content input:-moz-placeholder {
+	color: #b8b8b8;
+	font-size: 19px;
+	vertical-align: bottom;
+}
+.wrap-content .hr{
+	width: 268px;
+	height: 1px;
+	color: #ededed;
+	background-color: #ededde;
+}
+.wrap-btn{
+	text-align: center;
+	margin: 20px 0px 0px 0px;
+}
+.btn-orange{
+	display: inline-block;
+	width: 298px;
+	height: 50px;
+	line-height: 50px;
+	border:1px solid orange;
+	border-radius:10px;
+	background-color: orange;
+	text-decoration: none;
+	color: #fff;
+	font-size:20px;
+	font-weight: bold;
+	outline: none;
+	cursor: default;
+}
+</style>
+</head>
+<body>
+<form action="">
+<div class="main">
+	<p class="logo"></p>
+	<p class="title">填写订单</p>
+	<p class="tips">您附近有<span>205</span>辆出租车</p>
+	<div class="wrap-content">
+		<input type="text" id="t-start" placeholder="我在">
+		<div class="hr"></div>
+		<input type="text" id="t-end" placeholder="要去">
+	</div>
+	<div class="wrap-btn"><a href="#" class="btn-orange">马上叫车</a></div>
+</form>
+</div>
+</body>
+</html>

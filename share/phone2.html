@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+	<style type="text/css">
+		body{ margin: 0px; padding: 0px; border:0px; background-color: #FFF; font-family: "黑体简"; }
+		#main{ margin: 0px auto; text-align: center; }
+		#header{ padding:100px 0px 70px 0px; text-align: center; }
+		#header .logo1{ width: 210px; height: 210px; border:none; background:url("images/logo1.png") no-repeat; background-size:210px 210px; display: inline-block; }
+		#header .logo2{ width:250px; height:100px; margin:15px 0px 0px 0px; background:url("images/logo2.png") no-repeat; background-size:250px 100px; display: inline-block; }
+		#content{ padding-bottom: 100px; }
+		#content .tip{ margin: 0px; color: #797979; font-size: 22px; display: block; }
+		#content a{ display: inline-block; width:106px; height:106px; margin: 12px 24px 12px; padding: 0px; vertical-align: top; text-decoration: none; }
+		#content a.ios{ background: url("images/ios.png") no-repeat; background-size:106px 106px; }
+		#content a.android{ background: url("images/android.png") no-repeat; background-size:106px 106px; }
+		#content a.wp{ background: url("images/wp.png") no-repeat; background-size:106px 106px; }
+		#content a span{ color:#797979; font-size:22px; display: inline-block; text-decoration: none; position: relative; top:112px; vertical-align: top; }
+		#content a span.little{ margin: 0px; font-size:12px; font-color:#797979; position: relative; top:-4px; left:20px; }
+		#footer{ height: 94px; background-color: #e9e9e9; margin: 0px; padding:30px 0px 0px 0px; font-size: 22px; color: #7b7b7b; }
+	</style>
+</head>
+<body>
+<div id="main">
+	<div id="header">
+		<div class="logo1"></div>
+		<div>
+			<p class="logo2"></p>
+		</div>
+	</div>
+	<div id="content">
+		<span class="tip">请点击下载与手机系统相匹配的App</span>
+		<a href="http://ums.bz/SOTSnE/" class="ios">
+			<span>IOS</span>
+		</a>
+		<a href="http://bcs.duapp.com/diditaxi/didi_pasngerWeiBo.apk" class="android">
+			<span>Android</span>
+		</a>
+		<a href="http://www.windowsphone.com/zh-cn/store/app/%E5%98%80%E5%98%80%E6%89%93%E8%BD%A6/df0b0606-22c2-4b93-a016-936ac248eccc?signin=true" class="wp">
+			<span>
+				Windows
+				<span class="little">Phone</span>
+			</span>
+		</a>
+	</div>
+	<div id="footer">&copy; 北京小桔科技有限公司</div>
+</div>
+<script type="text/javascript">
+	indow.onload = function(){
+		if ((navigator.userAgent.match(/(Android)/i))) {
+			location.href="http://bcs.duapp.com/diditaxi/didi_pasngerWeiBo.apk";
+		}else if((navigator.userAgent.match(/(iPhone|iPod|ios|iPad)/i))){
+			location.href="http://ums.bz/SOTSnE/";
+		}else if((navigator.userAgent.match(/(Windows phone)/i))){
+			location.href="http://www.windowsphone.com/zh-cn/store/app/%E5%98%80%E5%98%80%E6%89%93%E8%BD%A6/df0b0606-22c2-4b93-a016-936ac248eccc?signin=true";
+		}else{}
+	}
+</script>
+</body>
+</html>
